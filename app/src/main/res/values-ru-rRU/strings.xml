@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Калькулятор</string>
+    <string name="apply">Принять</string>
+    <string name="dark">Темная</string>
+    <string name="_default">Стандартная</string>
+    <string name="theme">Тема</string>
+    <string name="settings">Настройки</string>
+    <string name="error_message">Ошибка</string>
+</resources>

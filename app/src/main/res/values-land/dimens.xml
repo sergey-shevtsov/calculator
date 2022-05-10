@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_text_size">32sp</dimen>
+    <dimen name="button_margin">3dp</dimen>
+    <dimen name="button_width">88dp</dimen>
+    <dimen name="switch_button_width">45dp</dimen>
+    <dimen name="switch_button_margin_left">10dp</dimen>
+    <dimen name="main_text_view_size">46sp</dimen>
+    <dimen name="supporting_text_view_size">30sp</dimen>
+    <dimen name="main_text_view_margin_top">10dp</dimen>>
+    <dimen name="main_text_view_margin_start">50dp</dimen>
+    <dimen name="text_view_margin">20dp</dimen>
+    <dimen name="supporting_text_view_margin_bottom">10dp</dimen>
+</resources>

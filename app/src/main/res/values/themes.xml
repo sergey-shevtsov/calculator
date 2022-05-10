@@ -1,0 +1,88 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Calculator" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/button_background</item>
+        <item name="colorPrimaryVariant">@color/grey</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:background">@color/grey</item>
+    </style>
+
+    <style name="mainTextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/main_text_view_size</item>
+        <item name="android:gravity">end</item>
+        <item name="android:layout_marginTop">@dimen/main_text_view_margin_top</item>
+        <item name="android:layout_marginEnd">@dimen/text_view_margin</item>
+        <item name="android:layout_marginStart">@dimen/main_text_view_margin_start</item>
+        <item name="android:textColor">@color/turquoise_65</item>
+    </style>
+
+    <style name="supportingTextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/supporting_text_view_size</item>
+        <item name="android:gravity">end</item>
+        <item name="android:layout_marginBottom">@dimen/supporting_text_view_margin_bottom</item>
+        <item name="android:layout_marginEnd">@dimen/text_view_margin</item>
+        <item name="android:layout_marginStart">@dimen/text_view_margin</item>
+        <item name="android:textColor">@color/turquoise_35</item>
+    </style>
+
+    <style name="buttonStyle" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:layout_width">@dimen/button_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/button_margin</item>
+        <item name="android:layout_marginEnd">@dimen/button_margin</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+    </style>
+
+    <style name="numberButtonStyle" parent="buttonStyle">
+        <item name="android:textColor">@color/button_black</item>
+    </style>
+
+    <style name="operandButtonStyle" parent="buttonStyle">
+        <item name="android:textColor">@color/turquoise_35</item>
+    </style>
+
+    <style name="equallyButtonStyle" parent="buttonStyle">
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:backgroundTint">@color/turquoise_35</item>
+    </style>
+
+    <style name="formatButtonStyle" parent="buttonStyle">
+        <item name="android:textColor">@color/purple</item>
+    </style>
+
+    <style name="settingsButton">
+        <item name="android:layout_width">@dimen/settings_button_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/settings_button_text_size</item>
+        <item name="android:layout_marginLeft">@dimen/settings_button_margin_left</item>
+    </style>
+
+    <style name="settingsTitle">
+        <item name="android:textSize">@dimen/settings_title_text_size</item>
+        <item name="android:layout_margin">@dimen/settings_text_view_margin</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="settingsSubTitle">
+        <item name="android:textSize">@dimen/settings_subtitle_text_size</item>
+        <item name="android:layout_margin">@dimen/settings_text_view_margin</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="applySettingsButton" parent="buttonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:backgroundTint">@color/turquoise_65</item>
+        <item name="android:textSize">@dimen/apply_button_text_size</item>
+        <item name="android:layout_marginTop">@dimen/apply_button_margin_top</item>
+    </style>
+</resources>

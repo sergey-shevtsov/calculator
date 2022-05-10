@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/settingsTitle"
+        android:text="@string/settings" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/settingsSubTitle"
+        android:text="@string/theme" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/default_theme_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_default"
+            android:textSize="20sp"
+            android:layout_marginStart="@dimen/text_view_margin" />
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/dark_theme_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dark"
+            android:textSize="20sp"
+            android:layout_marginStart="@dimen/text_view_margin" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/apply_settings_button"
+        style="@style/applySettingsButton"
+        android:text="@string/apply"
+        android:layout_gravity="center" />
+
+
+</LinearLayout>
